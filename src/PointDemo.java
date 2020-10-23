@@ -17,9 +17,13 @@ public class PointDemo {
         System.out.println("p1 = " + p1);
         System.out.println("p2 = " + p2);
 
+        System.out.println("-------------");
+
         //Skriv ut punkterna
         System.out.println("p1(" + p1.x + "," + p1.y + ")");
         System.out.println("p2(" + p2.x + "," + p2.y + ")");
+
+        System.out.println("-------------");
 
         //Flytta punkt 1 (p1)
         p1.x = 5; // Flytta 5 steg till höger
