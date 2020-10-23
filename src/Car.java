@@ -10,5 +10,5 @@ public class Car {
  int modelyear;
  String modelName;
  int price;
- int motorvarv;
+
 }
