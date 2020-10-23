@@ -32,5 +32,11 @@ public class PointDemo {
         //Skriv ut p2 och flyttade p1 koordinats
         System.out.println("p1(" + p1.x + "," + p1.y + ")");
         System.out.println("p2(" + p2.x + "," + p2.y + ")");
+
+        // Beräkna avståndet mellan p1 och p2
+        double d = Point.distance(p1,p2);
+        System.out.printf("Avståndet = %.2f" , Point.distance(p1, p2));
+
+        return;
     }
 }
