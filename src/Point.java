@@ -34,7 +34,7 @@ public class Point {
 
     public static double distance(Point p1, Point p2) {
 
-        /**
+        /*
          *         not necessary
          *         double x1 = p1.x;
          *         double y1 = p1.y;
@@ -43,7 +43,7 @@ public class Point {
          */
 
         // Beräkna avståndet
-        double distance = Math.sqrt(Math.pow(p2.x - p1.x, 2) + (p2.y - p1.y) * (p2.y - p1.y));
-
+        return Math.sqrt(Math.pow(p2.x - p1.x, 2) + (p2.y - p1.y) * (p2.y - p1.y));
+        
     }
 }
